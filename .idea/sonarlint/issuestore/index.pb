@@ -17,13 +17,13 @@ a
 1src/main/java/com/chanhan/ex02/PersonService.java,1/c/1c2099c60d0ae9e112495c2bacbc646a96c6625c
 M
 src/main/resources/person.xml,5/a/5a1e373600234577a71fb8aad0b487ed41e972cb
-a
-1src/main/java/com/chanhan/ex03/MemberDAOImpl.java,7/3/738540c6cf0851e00c5883693160352462adb069
-a
-1src/main/java/com/chanhan/ex03/MemberService.java,0/1/01254d924614aaa46f0fd550bc52234844d47c5d
 ]
 -src/main/java/com/chanhan/ex03/MemberDAO.java,4/b/4b7af2344ee22af1578ae5e2d2d90df007a46e0f
-e
-5src/main/java/com/chanhan/ex03/MemberServiceImpl.java,9/0/9002dc3d44eb0c9845a207530f006131e1b52787
+a
+1src/main/java/com/chanhan/ex03/MemberService.java,0/1/01254d924614aaa46f0fd550bc52234844d47c5d
 _
 /src/main/java/com/chanhan/ex03/MemberTest1.java,0/8/08071d5bcf3a5f9374b557ebf2e342f9751aff65
+a
+1src/main/java/com/chanhan/ex03/MemberDAOImpl.java,7/3/738540c6cf0851e00c5883693160352462adb069
+e
+5src/main/java/com/chanhan/ex03/MemberServiceImpl.java,9/0/9002dc3d44eb0c9845a207530f006131e1b52787
