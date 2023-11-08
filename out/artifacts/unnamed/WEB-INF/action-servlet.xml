@@ -34,7 +34,6 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
             </props>
         </property>
     </bean>
-
     <bean id="userController" class="com.chanhan.ex06.UserController">
         <property name="methodNameResolver">
             <ref local="userMethodNameResolver"/>
