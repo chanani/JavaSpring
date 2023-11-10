@@ -1,0 +1,17 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(σΖÿΕϋÿÿÿÿ8ιπ½»1
+b	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(Ό«αζ8“ΐς½»1
+Q
+java:S1172"/Remove this unused method parameter "response".(²ίσύÿÿÿÿ8«ιπ½»1
+X	java:S125"<This block of commented-out lines of code should be removed.(ΒρΗ8­ιπ½»1
+Q
+java:S1172"/Remove this unused method parameter "response".(σΖÿΕϋÿÿÿÿ8­ιπ½»1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(©¬Δόÿÿÿÿ8®ιπ½»1
+‰
+java:S1130/"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ό«αζ8³ΐς½»1
+[
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(κ†ύÿÿÿÿ8µΐς½»1
+n
+java:S1128"RRemove this unused import 'org.springframework.web.bind.ServletRequestDataBinder'.(τ»χs8µΐς½»1
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(φ»Ώλ8µΐς½»1
