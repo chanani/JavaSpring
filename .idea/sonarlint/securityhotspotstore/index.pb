@@ -64,14 +64,6 @@ N
 web/WEB-INF/action-servlet.xml,1/1/11c14048b492f25a184d53d8c0c864d5f680f26f
 R
 "web/WEB-INF/config/jdbc.properties,a/e/ae78f3ec1802b122a3c4b3b26ee12fec3cecd6b6
-L
-web/WEB-INF/sqlMapConfig.xml,3/d/3dda992a86923f15493e2d4125ad7741f1a145c5
-a
-1src/main/java/com/chanhan/ex08/Memberservlet.java,6/4/6440ca0a0a1f78adde17dd88e75deba626f0f748
-E
-web/mapper/member.xml,2/d/2ddf4f6ff35cf200be8320a589fa4488ab59886f
-]
--src/main/java/com/chanhan/ex08/MemberDAO.java,3/d/3df15563997ebb0f95244646eddeb70551592ad4
 \
 ,src/main/java/com/chanhan/ex07/MemberVO.java,e/d/ed43e6bee88ab050094e33f14b874b14fd84cac8
 \
@@ -82,10 +74,6 @@ C
 web/test/result.jsp,5/8/580a5608132e441bc905eec5508a6291cf2f5851
 G
 web/test/memberInfo.jsp,b/b/bb1583356285f3d95ae809cfbd1a03cdce2a76f2
-G
-web/test/memberForm.jsp,6/7/67a11a590aaf8162e07c03a0419e1786cb9f1365
-F
-web/test/loginForm.jsp,5/7/5710a72363833c3e585984bee1d7d8604f837ad5
 B
 web/test/index.jsp,8/c/8cb5c9c023d3f7fa7443f0d93b3e873da1c7eac0
 P

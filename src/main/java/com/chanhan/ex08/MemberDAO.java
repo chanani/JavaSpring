@@ -31,4 +31,59 @@ public class MemberDAO {
         memList = session.selectList("mapper.member.selectAllMemberList");
         return memList;
     }
+
+    public String selectName(){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        String name = session.selectOne("mapper.member.selectName");
+        return name;
+    }
+
+    public String selectPwd(){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        String pwd = session.selectOne("mapper.member.selectPwd");
+        return pwd;
+    }
+
+    public MemberVO selectMemberById(String id){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        MemberVO memberVO = session.selectOne("mapper.member.selectMemberById", id);
+        return memberVO;
+    }
+
+    public List<MemberVO> selectMemberPwd(String pwd){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        List<MemberVO> memberList = null;
+        memberList = session.selectOne("mapper.member.selectMemberByPwd", pwd);
+        return memberList;
+    }
+
+    public int insertMember(MemberVO memberVO){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        int result = 0;
+        result = session.insert("mapper.member.insertMember", memberVO);
+        session.commit();
+        return result;
+    }
+
+    public int updateMember(MemberVO memberVO){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        int result = session.update("mapper.member.updateMember", memberVO);
+        session.commit();
+        return result;
+    }
+
+    public int deleteMember(String id){
+        sqlMapper = getInstance();
+        SqlSession session = sqlMapper.openSession();
+        int result = session.delete("mapper.member.deleteMember", id);
+        session.commit();
+        return result;
+    }
+
 }

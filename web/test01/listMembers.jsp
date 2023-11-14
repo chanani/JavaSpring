@@ -17,6 +17,7 @@
         <td>비밀번호</td>
         <td>이름</td>
         <td>이메일</td>
+        <td><b>삭제</b></td>
     </tr>
     <c:forEach var="member" items="${membersList}">
         <tr align="center">
@@ -25,6 +26,7 @@
             <td>${member.name}</td>
             <td>${member.email}</td>
             <td>${member.joinDate}</td>
+            <td><a href="#{contextPath}/mem.do?action=deleteMember&id=${member.id}">삭제하기</a></td>
         </tr>
     </c:forEach>
 
