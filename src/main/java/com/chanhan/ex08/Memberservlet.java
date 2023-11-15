@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/mem.do")
@@ -82,6 +83,28 @@ public class Memberservlet extends HttpServlet {
         } else if(action.equals("deleteMember")){
             String id = request.getParameter("id");
             dao.deleteMember(id);
+            nextPage = "/mem.do?action=listMembers";
+        } else if (action.equals("searchMember")){
+            String name = request.getParameter("name");
+            String email = request.getParameter("email");
+            memberVO.setName(name);
+            memberVO.setEmail(email);
+            List<MemberVO> membersList = dao.searchMember(memberVO);
+            nextPage = "test01/listMembers.jsp";
+        } else if (action.equals("foreachSelect")){
+            List<String> nameList = new ArrayList<>();
+            nameList.add("홍길동");
+            nameList.add("손흥민");
+            nameList.add("박지성");
+            List<MemberVO> membersList = dao.foreachSelect(nameList);
+            request.setAttribute("membersList", membersList);
+            nextPage = "test01/listMembers.jsp";
+        } else if(action.equals("foreachInsert")){
+            List<MemberVO> memList = new ArrayList<>();
+            memList.add(new MemberVO("m1", "1234", "hong", "aa@aa.aa"));
+            memList.add(new MemberVO("m2", "1235", "kim", "bb@aa.aa"));
+            memList.add(new MemberVO("m3", "1256", "chan", "cc@aa.aa"));
+            int result = dao.foreachInsert(memList);
             nextPage = "/mem.do?action=listMembers";
         }
 

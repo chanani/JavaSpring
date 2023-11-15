@@ -44,26 +44,16 @@ b
 2src/main/java/com/chanhan/ex06/UserController.java,f/0/f08c0e3d94fd79b398e27b02f933abd099a65afa
 e
 5src/main/java/com/chanhan/ex07/MemberServiceImpl.java,0/d/0d16f73c4b01b90ae81554c5cc50542595bb80a0
-X
-(web/WEB-INF/config/action-dataSource.xml,8/6/86067cddaa8b95f08e17010a42a1b44481cf152a
 a
 1src/main/java/com/chanhan/ex07/MemberDAOImpl.java,5/6/56d298ac30db8a127dcec3e1af45d8ee16755b7f
 ]
 -src/main/java/com/chanhan/ex07/MemberDAO.java,4/8/4809ee4a1da5fd669bf6d512becb6933fe12641a
-U
-%web/WEB-INF/config/action-service.xml,d/d/dd0bebf0429362e2f31b9829e041cb6be98bfaaf
 a
 1src/main/java/com/chanhan/ex07/MemberService.java,1/8/1823be9f0f95d096dc2e04a0703d3278d79c9b84
-h
-8src/main/java/com/chanhan/ex07/MemberControllerImpl.java,c/9/c9b38873ea6110c906d57a5c7174d0c30d8bc095
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-C
-web/WEB-INF/web.xml,c/d/cdcc12da5c4054f6995aab32914d7e0243194c05
 N
 web/WEB-INF/action-servlet.xml,1/1/11c14048b492f25a184d53d8c0c864d5f680f26f
-R
-"web/WEB-INF/config/jdbc.properties,a/e/ae78f3ec1802b122a3c4b3b26ee12fec3cecd6b6
 \
 ,src/main/java/com/chanhan/ex07/MemberVO.java,e/d/ed43e6bee88ab050094e33f14b874b14fd84cac8
 \
@@ -76,5 +66,7 @@ G
 web/test/memberInfo.jsp,b/b/bb1583356285f3d95ae809cfbd1a03cdce2a76f2
 B
 web/test/index.jsp,8/c/8cb5c9c023d3f7fa7443f0d93b3e873da1c7eac0
-P
- web/WEB-INF/views/memberForm.jsp,1/2/12aac584d0208365acd0574469d23d0d54d0ec11
+L
+web/WEB-INF/sqlMapConfig.xml,3/d/3dda992a86923f15493e2d4125ad7741f1a145c5
+F
+web/test/loginForm.jsp,5/7/5710a72363833c3e585984bee1d7d8604f837ad5
