@@ -3,21 +3,35 @@ package com.chanhan.member.controller;
 import com.chanhan.member.service.MemberService;
 import com.chanhan.member.service.MemberServiceImpl;
 import com.chanhan.member.vo.MemberVO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
+import java.util.Map;
 
 public class MemberControllerImpl extends MultiActionController implements MemberController {
 
+    @Autowired
     private MemberService memberService;
-    public void setMemberService(MemberServiceImpl memberService){
-        this.memberService = (MemberService) memberService;
-    }
 
-    public ModelAndView listMembers(HttpServletRequest request, HttpServletResponse response) throws  Exception{
+    @Autowired
+    MemberVO memberVO;
+
+
+    /* required = true 필수
+    required = false 선택사항 없으면 null
+    @RequestParam Map<String, String> info // ${info.username, info.userID} 등으로 사용 가능
+    @ModelAttribute("info") LoginVO loginVO // info 를 이용해 바로 JSP에서 LoginVO 속성에 접근할 수 있음
+    Model model //  model.addAttribute("username", "홍길동") 으로 전달 가능
+
+    */
+    public ModelAndView listMembers(@RequestParam(value = "userID", required = false) String userID,
+                                    HttpServletRequest request, HttpServletResponse response) throws  Exception{
         String viewName = getViewName(request);
         List<MemberVO> membersList = memberService.listMembers();
         ModelAndView mav = new ModelAndView(viewName);

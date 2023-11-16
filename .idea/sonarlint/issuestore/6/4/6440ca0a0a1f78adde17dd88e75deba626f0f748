@@ -1,0 +1,28 @@
+
+i
+java:S11921"LDefine a constant instead of duplicating this literal "membersList" 3 times.(°üıå8æì™½1
+}
+java:S1192G"[Define a constant instead of duplicating this literal "/mem.do?action=listMembers" 4 times.(¯¬íùÿÿÿÿ8æì™½1
+y
+java:S1192<"WDefine a constant instead of duplicating this literal "test01/listMembers.jsp" 3 times.(Õ˜Í‹ùÿÿÿÿ8æì™½1
+c
+java:S1192A"FDefine a constant instead of duplicating this literal "email" 3 times.(»öÃ—8çì™½1
+J
+java:S1185"(Remove this method to simply inherit it.(¡’…ùüÿÿÿÿ8ëì™½1
+„
+java:S1989"bHandle the following exceptions that could be thrown by "doHandle": ServletException, IOException.(«æÜÆúÿÿÿÿ8ìì™½1
+„
+java:S1989"bHandle the following exceptions that could be thrown by "doHandle": ServletException, IOException.(«æÜÆúÿÿÿÿ8ìì™½1
+\
+java:S1854\"?Remove this useless assignment to local variable "membersList".(ëñøÖ8íì™½1
+V
+java:S1854k":Remove this useless assignment to local variable "result".(òË‡8íì™½1
+X	java:S125"<This block of commented-out lines of code should be removed.(áıÎı8îì™½1
+‰
+java:S1989)"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(ï‡‹ê8îì™½1
+M
+java:S1481\"0Remove this unused "membersList" local variable.(ëñøÖ8ğì™½1
+G
+java:S1481k"+Remove this unused "result" local variable.(òË‡8òì™½1
+ƒ
+java:S1989p"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ÜÕˆêøÿÿÿÿ8òì™½1

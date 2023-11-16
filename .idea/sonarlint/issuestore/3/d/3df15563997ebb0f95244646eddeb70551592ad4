@@ -1,0 +1,42 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ğòä™½1
+y
+java:S1488&"\Immediately return this expression instead of assigning it to the temporary variable "name".(–ÈÇ8Òòä™½1
+}
+java:S1488-"[Immediately return this expression instead of assigning it to the temporary variable "pwd".(†ÿ·£ùÿÿÿÿ8Òòä™½1
+}
+java:S14884"`Immediately return this expression instead of assigning it to the temporary variable "memberVO".(óŞ8Òòä™½1
+~
+java:S1488\"\Immediately return this expression instead of assigning it to the temporary variable "list".(ºùêĞúÿÿÿÿ8Òòä™½1
+y
+java:S1488c"\Immediately return this expression instead of assigning it to the temporary variable "list".(Ê—Î˜8Òòä™½1
+{
+java:S1488j"^Immediately return this expression instead of assigning it to the temporary variable "result".(Î›’İ8Òòä™½1
+j
+java:S2095%"HUse try-with-resources or close this "SqlSession" in a "finally" clause.(€€šŠşÿÿÿÿ8Ùòä™½1
+j
+java:S2095,"HUse try-with-resources or close this "SqlSession" in a "finally" clause.(€€šŠşÿÿÿÿ8Ùòä™½1
+j
+java:S2095S"HUse try-with-resources or close this "SqlSession" in a "finally" clause.(€€šŠşÿÿÿÿ8Ùòä™½1
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8Şòä™½1
+X
+java:S2696$"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8Şòä™½1
+X
+java:S2696+"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8ßòä™½1
+X
+java:S26962"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8ßòä™½1
+X
+java:S26969"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8ßòä™½1
+X
+java:S2696A"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8àòä™½1
+X
+java:S2696J"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8àòä™½1
+X
+java:S2696R"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8áòä™½1
+X
+java:S2696Z"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8áòä™½1
+X
+java:S2696a"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8áòä™½1
+X
+java:S2696h"6Make the enclosing method "static" or remove this set.(Î’…ùÿÿÿÿ8âòä™½1
