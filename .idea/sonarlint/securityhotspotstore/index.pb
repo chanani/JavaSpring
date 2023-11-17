@@ -50,8 +50,6 @@ a
 -src/main/java/com/chanhan/ex07/MemberDAO.java,4/8/4809ee4a1da5fd669bf6d512becb6933fe12641a
 a
 1src/main/java/com/chanhan/ex07/MemberService.java,1/8/1823be9f0f95d096dc2e04a0703d3278d79c9b84
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 N
 web/WEB-INF/action-servlet.xml,1/1/11c14048b492f25a184d53d8c0c864d5f680f26f
 \
@@ -102,3 +100,13 @@ P
  web/WEB-INF/views/memberForm.jsp,1/2/12aac584d0208365acd0574469d23d0d54d0ec11
 G
 web/test/memberForm.jsp,6/7/67a11a590aaf8162e07c03a0419e1786cb9f1365
+X
+(web/WEB-INF/views/member/listMembers.jsp,0/0/009ea2c9f41b0af318f9070e8070286ec3eb9305
+W
+'web/WEB-INF/views/member/memberForm.jsp,3/4/3423dc952f1a9449e5c2e4192d9b45b4c3634d88
+O
+web/WEB-INF/views/test/main.jsp,c/8/c8c170fb79494c307d54cdfd01b949515801d043
+C
+web/WEB-INF/web.xml,c/d/cdcc12da5c4054f6995aab32914d7e0243194c05
+E
+web/mapper/member.xml,2/d/2ddf4f6ff35cf200be8320a589fa4488ab59886f
